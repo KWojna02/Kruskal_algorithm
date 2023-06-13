@@ -5,7 +5,6 @@
 #include "MST.h"
 #include "PriorityQueue.h"
 #include "FindUnion.h"
-#include "foajfiojsaoi.h"
 #include <chrono>
 
 class Kruskal_algorithm
