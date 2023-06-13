@@ -15,6 +15,6 @@ public:
 	int get_w();
 	int get_t();
 	Edge* get_r();
-	string toString(bool printMSTEdges);
+	string toString(bool printTree);
 };
 #endif MST_H

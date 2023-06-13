@@ -44,7 +44,7 @@ string Edge::toString()
 	return to_string(source) + " " + to_string(destination) + " " + to_string(weight);
 }
 
-bool Edge::ASC(Edge e1, Edge e2)
+bool Edge::increasing(Edge e1, Edge e2)
 {
 	return e1.get_w() > e2.get_w();
 }

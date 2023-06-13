@@ -24,10 +24,10 @@ Edge* MST::get_r()
 	return result;
 }
 
-string MST::toString(bool printMSTEdges) 
+string MST::toString(bool printTree) 
 {
 	string val = "Waga MST: " + to_string(weight) + "\n";
-	if (printMSTEdges) 
+	if (printTree) 
 	{
 		for (int i = 0; i < size; i++)
 		{
